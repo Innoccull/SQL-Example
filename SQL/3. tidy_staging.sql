@@ -1,3 +1,10 @@
+-- ##########################################################
+-- Script Name: Tidy Staging
+-- Author: Chris Rodgers
+-- Date: 2024-10-19
+-- Purpose: Fix data errors in staging database
+-- ##########################################################
+
 -- Script to tidy up data in staging before loading to star schema
 
   UPDATE stg_matches

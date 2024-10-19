@@ -1,3 +1,10 @@
+-- ##########################################################
+-- Script Name: Cricket Star Schema Database
+-- Author: Chris Rodgers
+-- Date: 2024-10-19
+-- Purpose: Create star schema database
+-- ##########################################################
+
 -- Create or select the database
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'CricketDB')
 BEGIN

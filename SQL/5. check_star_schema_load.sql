@@ -1,7 +1,7 @@
 -- ##########################################################
 -- Script Name: Data Quality Checks for Cricket Matches Star Schema
 -- Author: Chris Rodgers
--- Date: 2024-09-29
+-- Date: 2024-10-19
 -- Purpose: Perform sanity checks after loading data from staging to star schema, this includes checking row count consistency, missing data in star schema, duplicate records, foreign key integrity checks
 -- ##########################################################
 

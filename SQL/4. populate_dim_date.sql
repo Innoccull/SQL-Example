@@ -1,4 +1,9 @@
--- POPULATE DATE DIMENSION
+-- ##########################################################
+-- Script Name: Populate DimDate
+-- Author: Chris Rodgers
+-- Date: 2024-10-19
+-- Purpose: Populate the date dimension in the star schema
+-- ##########################################################
 
 -- Declare the date range you want to seed
 DECLARE @StartDate DATE = '2000-01-01';

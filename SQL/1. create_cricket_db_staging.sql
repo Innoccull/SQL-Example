@@ -1,4 +1,10 @@
--- Create staging database
+-- ##########################################################
+-- Script Name: Cricket Staging Database
+-- Author: Chris Rodgers
+-- Date: 2024-10-19
+-- Purpose: Create staging database
+-- ##########################################################
+
 -- Create or select the database
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'CricketDBStaging')
 BEGIN
